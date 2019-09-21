@@ -20,3 +20,13 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+
+  .numButtons {
+        border: 1px solid blue;
+        border-radius:2.5rem;
+        padding: 2.5rem 13.0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
