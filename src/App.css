@@ -21,12 +21,33 @@
     font-size: 5.0rem;
   }
 
+  .flex-button {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   .numButtons {
-        border: 1px solid blue;
-        border-radius:2.5rem;
-        padding: 2.5rem 2.5rem;
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 10px 15px 10px 10px;
+    color: whitesmoke;
+    background-color: darkblue;
+    font-size: 2rem;
+    outline: none;
+    box-shadow: 3px 3px 3px black;
+        
+  }
+
+  .operators {
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 10px 15px 10px 15px;
+    color: whitesmoke;
+    background-color: lightblue;
+    font-size: 2rem;
+    outline: none;
+    box-shadow: 3px 3px 3px black;
+        
   }
