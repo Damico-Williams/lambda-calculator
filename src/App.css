@@ -21,9 +21,10 @@
     font-size: 5.0rem;
   }
 
-  .flex-button {
+  .flex-num {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .numButtons {
@@ -39,15 +40,38 @@
         
   }
 
+  .flex-op {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
   .operators {
     border-radius: 50%;
     width: 4.5rem;
     height: 4.5rem;
     margin: 10px 15px 10px 15px;
     color: whitesmoke;
-    background-color: lightblue;
+    background-color: deepskyblue;
     font-size: 2rem;
     outline: none;
     box-shadow: 3px 3px 3px black;
         
+  }
+
+  .flex-spec {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .specials {
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 10px 15px 10px 15px;
+    color: whitesmoke;
+    background-color: #004f99;
+    font-size: 2rem;
+    outline: none;
+    box-shadow: 3px 3px 3px black;
   }

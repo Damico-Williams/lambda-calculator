@@ -12,12 +12,12 @@ const Numbers = () => {
   // STEP 2 - add the imported data to state
   const [numValue, setnumValue] = useState(numbers);
   return (
-    <div>
+    <div className="flex-num">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/
        numValue.map((num) => {
-           return <NumberButton number={num} />
+           return <NumberButton number={num} />  //number is a banana word aka key
        })}
     </div>
   );

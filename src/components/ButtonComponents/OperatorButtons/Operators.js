@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { operators } from "../../../data";
+import { operators } from "../../../data.js";
 import OperatorButton from "./OperatorButton.js"
 
 //import any components needed
@@ -11,7 +11,7 @@ export const Operators = () => {
   const [opValue, setopValue] = useState(operators)
   console.log(opValue)
   return (
-    <div>
+    <div className="flex-op">
       {opValue.map((opps) => {
            return <OperatorButton operator={opps.char} />
        })}
